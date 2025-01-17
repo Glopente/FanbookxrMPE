@@ -2,7 +2,11 @@
 
 ___
 - [Игра](./game/game.md)
-    - [Немного о трилогии](./game/gameinit.md)
+  - [Режимы игры](./game/gamemode.md)
+    - [Кооп](./game/coop.md)
+    - [Оборона](./game/defence.md)
+    - [Зимние истории](./game/winterstory.md) 
+  - [Немного о трилогии](./game/gameinit.md)
 
 ___
 - [Сервер](./server/serverinit.md)

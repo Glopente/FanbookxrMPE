@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Админка Сервера</title>
+        <title>Администратор Сервера</title>
 
 
         <!-- Custom HTML head -->
@@ -152,66 +152,11 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="Администратор-Сервера"><a class="header" href="#Администратор-Сервера">Администратор Сервера</a></h1>
-<h1 style="text-align: center">Администратор сервера xrMPE.</h1>
+                        <h1 style="text-align: center">Администратор сервера xrMPE.</h1>
 <ul>
 <li>Администратор сервера xrMPE — это человек который имеет права управления сервером. Может управлять игроками, менять настройки сервера и управлять сменой картами.</li>
 </ul>
 <hr />
-<h1 style="text-align: center">Создание аккаунта администратора на сервере xrMPE.</h1>
-<ul>
-<li>
-<p>В корне игры найдите папку _appdata_server и создайте в ней файл radmins.ltx</p>
-</li>
-<li>
-<p>Должно получится вот так.
-<img src="../image/server/radmin.png#center" alt="suggest an edit centered" /></p>
-</li>
-<li>
-<p>Добавьте в него секцию: [radmins] и строку: &lt;Ник&gt;=&lt;Пароль&gt;, где логин — Ваш логин, а пароль — Ваш пароль.</p>
-</li>
-</ul>
-<p><img src="../image/server/radminedit.png#center" alt="suggest an edit centered" /></p>
-<ul>
-<li>Например вот так.</li>
-</ul>
-<p><img src="../image/server/primer.png#center" alt="suggest an edit centered" /></p>
-<ul>
-<li>Чтобы получить права администратора на сервере, подключитесь к нему и в консоли игры (обычно вызывается на тильду (~))введите: ra login логин пароль (используя логин и пароль, которые Вы указали в radmins.ltx).</li>
-</ul>
-<p><img src="../image/server/login.png#center" alt="suggest an edit centered" /></p>
-<ul>
-<li>После ввода команды вы попадаете в кабинет администратора.</li>
-</ul>
-<p><img src="../image/server/adminka.png#center" alt="suggest an edit centered" /></p>
-<hr />
-<h1 style="text-align: center">Консольные команды Администратора/Радмина.</h1>
-<p>КОНСОЛЬНЫЕ КОМАНДЫ АДМИНА/РАДМИНА</p>
-<ul>
-<li>g_spawn — спавнит по направлению взгляда любой выбранный из списка предмет</li>
-<li>g_spawn_to_inventory — спавнит в личный инвентарь выбранный из списка предмет</li>
-<li>g_spawn_to_inventory_target — спавнит в инвентарь игрока по направлению взгляда выбранный из списка предмет</li>
-<li>g_change_visual_.. — сменаи личного визуала, либо игрока по направлению взгляда</li>
-<li>sv_host_name — название сервера</li>
-<li>sv_max_players — максимальное количество игроков</li>
-<li>g_respawn — респавнит указанный из списка объект</li>
-<li>g_god — бессмертие для игроков</li>
-<li>g_unlimitedammo — бесконечные патроны всем игрокам</li>
-<li>g_no_clip — возможность полёта для радмина</li>
-<li>g_target_die — убить игрока/NPC по направлению взгляда</li>
-<li>sv_rename_mode — режим переименования на сервере</li>
-<li>sv_df_max_connect_wave — задает максимальную волну в начавшейся игре, к которой может подключиться новый игрок, однако, к последней волне присоединиться всё равно не удастся</li>
-</ul>
-<p>Команды удаления предметов и тел:</p>
-<ul>
-<li>sv_remove_actors_corpse -1 — мертвые игроки</li>
-<li>sv_remove_all_alive_stalkers -1 — живые сталкеры</li>
-<li>sv_remove_stalker_corpse -1 — мертвые сталкеры</li>
-<li>sv_remove_all_alive_monsters -1 — живые монстры</li>
-<li>sv_remove_monster_corpse -1 — мертвые монстры</li>
-<li>sv_remove_weapon -1 — предметы инвентаря</li>
-<li>sv_remove_weapon -1 — предметы инвентаря</li>
-</ul>
 
                     </main>
 
@@ -221,6 +166,9 @@
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
+                            <a rel="next prefetch" href="../server/adminlogin.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
 
                         <div style="clear: both"></div>
                     </nav>
@@ -232,6 +180,9 @@
                         <i class="fa fa-angle-left"></i>
                     </a>
 
+                    <a rel="next prefetch" href="../server/adminlogin.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
             </nav>
 
         </div>

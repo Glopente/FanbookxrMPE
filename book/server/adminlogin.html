@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Сервер</title>
+        <title>Вход в меню администратора</title>
 
 
         <!-- Custom HTML head -->
@@ -152,25 +152,43 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="Сервер"><a class="header" href="#Сервер">Сервер</a></h1>
-<hr />
-<h1 style="text-align: center">Что такое сервер и выделенный сервер ?</h1>
-<p>Сервер (Server) — это устройство, которое хранит данные и даёт доступ к ним большому числу клиентов. Клиенты — пользователи, которые отправляют на сервер запросы и получают ответы.</p>
-<p>Можно сказать, что сервер состоит из двух частей. Первая — мощный компьютер, который отвечает за хранение и обработку большого количества информации. Вторая — программное обеспечение, установленное на этот компьютер.</p>
-<p>Выделенный сервер (Dedicated server) - это услуга, которая дает клиенту возможность хранить свои данные на отдельной физической “машине”.</p>
-<hr />
-<h1 style="text-align: center"> ?</h1>
-<hr />
+                        <h1 id="Вход-в-меню-администратора"><a class="header" href="#Вход-в-меню-администратора">Вход в меню администратора</a></h1>
+<h1 style="text-align: center">Создание аккаунта администратора на сервере xrMPE.</h1>
+<ul>
+<li>
+<p>В корне игры найдите папку _appdata_server и создайте в ней файл radmins.ltx</p>
+</li>
+<li>
+<p>Должно получится вот так.
+<img src="../image/server/radmin.png#center" alt="suggest an edit centered" /></p>
+</li>
+<li>
+<p>Добавьте в него секцию: [radmins] и строку: &lt;Ник&gt;=&lt;Пароль&gt;, где логин — Ваш логин, а пароль — Ваш пароль.</p>
+</li>
+</ul>
+<p><img src="../image/server/radminedit.png#center" alt="suggest an edit centered" /></p>
+<ul>
+<li>Например вот так.</li>
+</ul>
+<p><img src="../image/server/primer.png#center" alt="suggest an edit centered" /></p>
+<ul>
+<li>Чтобы получить права администратора на сервере, подключитесь к нему и в консоли игры (обычно вызывается на тильду (~))введите: ra login логин пароль (используя логин и пароль, которые Вы указали в radmins.ltx).</li>
+</ul>
+<p><img src="../image/server/login.png#center" alt="suggest an edit centered" /></p>
+<ul>
+<li>После ввода команды вы попадаете в кабинет администратора.</li>
+</ul>
+<p><img src="../image/server/adminka.png#center" alt="suggest an edit centered" /></p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="../game/gameinit.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../server/serveradmin.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next prefetch" href="../server/serverstart.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="../server/admincommand.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -180,11 +198,11 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="../game/gameinit.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../server/serveradmin.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next prefetch" href="../server/serverstart.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="../server/admincommand.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
