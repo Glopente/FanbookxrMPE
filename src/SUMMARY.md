@@ -8,6 +8,8 @@ ___
 - [Сервер](./server/serverinit.md)
   - [Запуск Сервера](./server/serverstart.md)
   - [Настройка Сервера](./server/serversetting.md)
-  - [Админка Сервера](./server/serveradmin.md)
+  - [Администратор Сервера](./server/serveradmin.md)
+    - [Вход в меню администратора](./server/adminlogin.md)
+    - [Команды админа](./server/admincommand.md)
 
 
